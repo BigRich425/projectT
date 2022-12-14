@@ -67,8 +67,8 @@ public class GetFood : MonoBehaviour
 
 
 
-        thing.x = ConvertToWorldUnits(Input.mousePosition).x * 5;
-        thing.y = ConvertToWorldUnits(Input.mousePosition).y * 5;
+        thing.x = ConvertToWorldUnits(Input.mousePosition).x;
+        thing.y = ConvertToWorldUnits(Input.mousePosition).y;
         
         float posx = cam.ScreenToViewportPoint(Input.mousePosition).x;
 
